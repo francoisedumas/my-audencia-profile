@@ -1,0 +1,66 @@
+body {
+  background: #F7F9FC;
+  color: #575F7D;
+  font-family: 'Lora', serif;
+  font-size: 17px;
+  font-weight: lighter;
+}
+
+h2 {
+  color: #7ECE90;
+  font-size: 20px;
+  font-weight: lighter;
+  font-weight: 500;
+}
+
+a {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: #6B72E1;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.container {
+  width: 700px; /* set the width of your container */
+  margin: 40px auto; /* set margins: top/bottom: 40px; left/right: automatic */
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.card-white {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.btn-blue {
+  background-color: #6B72E1;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+#introduction p {
+  margin-bottom: 40px;
+}
+
+.list-inline {
+  list-style: none; /* kill the bullet points */
+  padding-left: 0px; /* kill remaining padding left */
+}
+
+.list-inline > li {
+  display: inline; /* change list item behavior to inline */
+  padding: 0px 20px; /* add som left/right padding between list items */
+}
+
+.list-inline i {
+  font-size: 50px;
+  color: rgb(230, 230, 230);
+}
